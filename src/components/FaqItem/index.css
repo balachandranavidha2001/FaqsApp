@@ -1,0 +1,82 @@
+/* Write your code here. */
+@media screen and (min-width: 576px) {
+  .faq-item {
+    width: 60vw;
+    border: 1px solid #d7dae6;
+    border-radius: 16px;
+    margin-bottom: 24px;
+    padding: 16px;
+    list-style: none;
+  }
+  .faq-inside {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .faq-question {
+    color: #52606d;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Roboto';
+  }
+  .plus-minus-image {
+    background-color: transparent;
+    border-color: transparent;
+    cursor: pointer;
+    outline: none;
+  }
+  .render-answer-image {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  .answer {
+    color: #9aa5b1;
+    font-family: 'Roboto';
+  }
+  .horizontal-line {
+    border-color: #9aa5b1;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .faq-item {
+    width: 60vw;
+    border: 1px solid #d7dae6;
+    border-radius: 16px;
+    margin-bottom: 24px;
+    padding: 16px;
+    list-style: none;
+  }
+  .faq-inside {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .faq-question {
+    color: #52606d;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Roboto';
+  }
+  .plus-minus-image {
+    background-color: transparent;
+    border-color: transparent;
+    cursor: pointer;
+    outline: none;
+  }
+  .render-answer-image {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  .answer {
+    color: #9aa5b1;
+    font-family: 'Roboto';
+  }
+  .horizontal-line {
+    border-color: #9aa5b1;
+  }
+}
